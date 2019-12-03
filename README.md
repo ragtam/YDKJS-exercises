@@ -14,8 +14,8 @@ Stateful parsing rules for tokenizer are called lexing.
                /            \
               /               \
   Identifier ( value a)     Assignment Expression
-                                \
-                                  \
+                                /\
+                                  /\
                                   NumericLiteral ( value is 2 )
 
 - Code Generation: turn AST into executable code, set of machine instructions. Create a variable called a ( reserve memory etc ), and then store a value into and
