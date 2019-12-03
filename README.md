@@ -32,3 +32,8 @@ compiler asks scope if a variable already exists in the scope. If so, compiler i
 Then it proceedes with a = 2 assignment. Code engine runs will ask Scope if there is a variable called a in current scope. If so it uses that variable, if not looks elsewhere. Once it finds a variable, it will assign a value, is not throw an error.
 
 TWO SEPARATE ACTIONS: declaration and then while executing, variable lookup and assignment if found.
+
+### LHS vs RHS
+
+LHS - appears on the left side of assignment. Try to find container itself.
+RHS - go get the value of ...
