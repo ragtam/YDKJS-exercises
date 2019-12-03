@@ -24,7 +24,10 @@ Stateful parsing rules for tokenizer are called lexing.
 
 In JS code compilation occurs microseconds before its executed
 
+What happens here?
+```
 var a = 2;
+```
 compiler asks scope if a variable already exists in the scope. If so, compiler ignores the declaration and moves on. If not, compiler asks a scope to declare a new variable called a in that scope.
 Then it proceedes with a = 2 assignment. Code engine runs will ask Scope if there is a variable called a in current scope. If so it uses that variable, if not looks elsewhere. Once it finds a variable, it will assign a value, is not throw an error.
 
